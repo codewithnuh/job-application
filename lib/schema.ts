@@ -33,4 +33,4 @@ export const fullFormSchema = z.object({
   ...accountSchema.shape,
 });
 
-export type FullFormValues = z.infer<typeof fullFormSchema>;
+export type ApplicationData = z.infer<typeof fullFormSchema>;
